@@ -77,7 +77,9 @@ Task.prototype.createIncident = function (top5, description, callBack) {
             "caller_id":"admin",
             "assigned_to":"robert456",
             "short_description":description,
-            "description":top5
+            "description":" this ticket is created by HelpMe!",
+            "work_notes":top5
+
             //"description":"test send process in this field"
             
         },
